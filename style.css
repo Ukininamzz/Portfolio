@@ -1,18 +1,18 @@
 :root {
-  --primary-color: #4cd5c8;
+  --primary-color: #32c3b4;
   --secondary-color: #6ac0b7;
   --text-color: #2e5c58;
   --bg-color: #ffffff;
   --accent-color: #00dbc5;
   --border-color: #e5e7eb;
   --card-bg: #f3f4f6;
-  --transition: all 0.3s ease;
+  --transition: all 0.5s ease;
 }
 
 /* Dark mode variables */
 body.dark-mode {
   --text-color: #f3f4f6;
-  --bg-color: #2c2c2c;
+  --bg-color: #1b1b1b;
   --border-color: #117d72;
   --card-bg: #2d615c;
 }
@@ -206,7 +206,7 @@ label {
 input,
 textarea {
   width: 100%;
-  padding: 0.75rem;
+  padding: 1.2rem;
   border: 1px solid var(--border-color);
   border-radius: 5px;
   background-color: var(--bg-color);
